@@ -65,7 +65,7 @@ def get_output(condition,a):
     _n=_n*(a[-1][3][1]/(len(data)-1.0));
     return _y,_n;
                           
-f_nm=r'C:\Users\Mahesh\Desktop\Dataset\data.csv'
+f_nm=r'C:\Users\PushA\Desktop\Dataset\data.csv'
 mode='rb'
 delimiter=','
 data=read_csv(f_nm,mode,delimiter)
